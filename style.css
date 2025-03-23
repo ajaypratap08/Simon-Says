@@ -1,0 +1,94 @@
+/* General Body Styling */
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  flex-direction: column;
+}
+
+.game-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #777;
+}
+
+/* Button Container */
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+/* Button Styling */
+.btn {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  margin: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* Colors for Buttons */
+.green {
+  background-color: #4caf50;
+}
+.red {
+  background-color: #f44336;
+}
+.yellow {
+  background-color: #ffeb3b;
+}
+.blue {
+  background-color: #2196f3;
+}
+
+/* Flashing Effect for Game */
+.gameflash {
+  background-color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.userflash {
+  background-color: violet;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Hover and Active States */
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Animation for Button Press */
+.btn:active {
+  transform: scale(0.95);
+}
+
+/* Line Layout for Buttons */
+.line-1,
+.line-2 {
+  display: flex;
+}
+
+.line-1 {
+  flex-direction: row;
+}
+
+.line-2 {
+  flex-direction: row;
+}
